@@ -4,4 +4,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+
+  base: ProcessingInstruction.env.VITE_BASE_PATH || "/Assainment-5",
 })

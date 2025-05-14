@@ -1,9 +1,3 @@
 @import "tailwindcss";
 
-@layer utilities{
-    .same{
-        @apply bg-red-300 text-red-600 text-center text-7xl;
-    }
-}
-
 
