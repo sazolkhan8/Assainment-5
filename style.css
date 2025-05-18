@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer utilities{
     .section-footer{
@@ -27,5 +28,4 @@
 
 .footer-link p{
     padding-top: 5px;
-    color: #20484F;
 }
