@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+
+@layer utilities{
+    .section-footer{
+        @apply size-[80px] md:size-fit flex items-center border-r;
+    }
+    .learnEarnDiv{
+        @apply col-span-12 md:col-span-6 bg-[#FFFFFF] rounded-[20px] shadow dark:bg-gray-900 dark:text-white;
+    }
+    .ls-heading{
+        @apply text-[#000000] dark:text-white text-lg md:text-2xl font-semibold border-b border-b-red-400 dark:border-b-gray-500 mx-10 py-5;
+    }
+    .skill-div{
+        @apply flex gap-2 md:gap-5 mb-2 md:mb-5 text-sm md:text-lg;
+    }
+    .skill-tag{
+        @apply border border-red-500 dark:border-gray-500 py-0.5 px-1 rounded-full;
+    }
+    .job_lr{
+        @apply grid gap-5 md:gap-10 p-5 md:p-10 text-xs md:text-lg;
+    }
+    .course-tag{
+        @apply border border-[#D6D1F3] text-[#232323] text-xs md:text-2xl bg-[#FFFFFF] rounded-full py-1 md:py-2 px-2 md:px-8;
+    }
+}
