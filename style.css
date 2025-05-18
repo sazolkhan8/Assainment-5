@@ -24,3 +24,8 @@
         @apply border border-[#D6D1F3] text-[#232323] text-xs md:text-2xl bg-[#FFFFFF] rounded-full py-1 md:py-2 px-2 md:px-8;
     }
 }
+
+.footer-link p{
+    padding-top: 5px;
+    color: #20484F;
+}
